@@ -50,6 +50,8 @@ begin
             return X"14";
         when "011"  => -- EnDat
             return X"14";
+        when "100"  => -- ZMI
+            return X"0C";
         when others =>
             return X"20";
     end case;
